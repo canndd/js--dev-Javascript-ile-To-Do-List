@@ -14,6 +14,7 @@ ekle.addEventListener("click",function(){
     
     // appendChild ile oluşturduğumuz elementi "liste" isimli değişkenimizin içerisine ekliyoruz.
     liste.appendChild(li);
+    alert("EKLENDİ");
                 
     // Veri inputu içerisindeki metni siliyoruz.
     veri.value = "";
