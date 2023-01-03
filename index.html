@@ -71,10 +71,11 @@
         />
         <h2>Yapılacaklar Listesi</h2>
         <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
-        <span onclick="newElement()" id="liveToastBtn" class="button"
+        <span  onclick="newElement()" id="liveToastBtn" class="button "
           >Ekle</span
         >
       </div>
+      
 
       <ul id="list">
         <li>3 Litre Su İç</li>
@@ -84,7 +85,22 @@
         <li>50 Sayfa Kitap Oku</li>
       </ul>
     
-      <script src="js/javascript.js"></script>
+      
+
+
+      
     </div>
+    <div id="liveToast"  class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="..." class="rounded me-2" alt="...">
+        <strong class="me-auto">Bootstrap</strong>
+        <small>11 mins ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        Hello, world! This is a toast message.
+      </div>
+    </div>
+    <script src="js/javascript.js"></script>
   </body>
 </html>
